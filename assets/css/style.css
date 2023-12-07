@@ -339,7 +339,35 @@ section {
   left: 0;
 }
 
-.section-title p {
+.reflection p {
+  margin-bottom: 0;
+}
+
+.reflection {
+  padding-bottom: 30px;
+}
+
+.reflection {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.reflection h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #149ddd;
+  bottom: 0;
+  left: 0;
+}
+
+.reflection p {
   margin-bottom: 0;
 }
 
